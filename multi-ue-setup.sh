@@ -44,7 +44,6 @@ create_namespace() {
   mkdir -p /etc/netns/$name
   cp /etc/resolv.conf /etc/netns/$name/resolv.conf
 
-  echo "Namespace $name created with DNS resolution."
 }
 
 delete_namespace() {
